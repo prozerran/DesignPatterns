@@ -1,4 +1,4 @@
-# DesignPatterns
+# Design Patterns in C++
 More than 35+ Design Patterns implemented in C++ header files.
 
 This is a sample implementation of the most common (and not so common) Design Patterns in C++, all packed into header files for easy inclusion to your projects.
