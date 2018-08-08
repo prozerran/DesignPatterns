@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{A2C7482B-CC30-435A-9491-0433D2D2F703}"
+	ProjectSection(SolutionItems) = preProject
+		AbstractFactory.hpp = AbstractFactory.hpp
+		Builder.hpp = Builder.hpp
+		Factory.hpp = Factory.hpp
+		LazyInitialization.hpp = LazyInitialization.hpp
+		Monostate.hpp = Monostate.hpp
+		Multiton.hpp = Multiton.hpp
+		ObjectPool.hpp = ObjectPool.hpp
+		Prototype.hpp = Prototype.hpp
+		RAII.hpp = RAII.hpp
+		Singleton.hpp = Singleton.hpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{FB15264D-2573-4E2A-A2A7-9F4E200CB94E}"
+	ProjectSection(SolutionItems) = preProject
+		Adapter.hpp = Adapter.hpp
+		Bridge.hpp = Bridge.hpp
+		Composite.hpp = Composite.hpp
+		Decorator.hpp = Decorator.hpp
+		Facade.hpp = Facade.hpp
+		FlyWeight.hpp = FlyWeight.hpp
+		Proxy.hpp = Proxy.hpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{F9E60272-4266-4ACA-9C2C-1B8C10926D34}"
+	ProjectSection(SolutionItems) = preProject
+		ChainResponsibility.hpp = ChainResponsibility.hpp
+		Command.hpp = Command.hpp
+		Interpreter.hpp = Interpreter.hpp
+		Iterator.hpp = Iterator.hpp
+		Mediator.hpp = Mediator.hpp
+		Memento.hpp = Memento.hpp
+		NullObject.hpp = NullObject.hpp
+		PublisherSubscriber.hpp = PublisherSubscriber.hpp
+		RegisterCallback.hpp = RegisterCallback.hpp
+		Servant.hpp = Servant.hpp
+		Specification.hpp = Specification.hpp
+		State.hpp = State.hpp
+		Strategy.hpp = Strategy.hpp
+		TemplateMethod.hpp = TemplateMethod.hpp
+		Visitor.hpp = Visitor.hpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Concurrency", "Concurrency", "{B38DE086-F9C6-4717-B48C-C5C10BCBCA2A}"
+	ProjectSection(SolutionItems) = preProject
+		DoubleCheckLocking.hpp = DoubleCheckLocking.hpp
+		ScopedLock.hpp = ScopedLock.hpp
+		SingleInstance.hpp = SingleInstance.hpp
+		Thread.hpp = Thread.hpp
+		ThreadPool.hpp = ThreadPool.hpp
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestPattern", "TestPattern\TestPattern.vcxproj", "{779195CB-B11D-4A0D-856E-34F7DE558DC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{59CB0FB5-6D79-4219-8DEC-9951F92AB46C}"
+	ProjectSection(SolutionItems) = preProject
+		DesignPattern.h = DesignPattern.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestPattern_gTest", "TestPattern_gTest\TestPattern_gTest.vcxproj", "{9466EBE7-7EAC-4F09-946A-C7197E0CCA6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{779195CB-B11D-4A0D-856E-34F7DE558DC4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{779195CB-B11D-4A0D-856E-34F7DE558DC4}.Debug|Win32.Build.0 = Debug|Win32
+		{779195CB-B11D-4A0D-856E-34F7DE558DC4}.Release|Win32.ActiveCfg = Release|Win32
+		{779195CB-B11D-4A0D-856E-34F7DE558DC4}.Release|Win32.Build.0 = Release|Win32
+		{9466EBE7-7EAC-4F09-946A-C7197E0CCA6A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9466EBE7-7EAC-4F09-946A-C7197E0CCA6A}.Debug|Win32.Build.0 = Debug|Win32
+		{9466EBE7-7EAC-4F09-946A-C7197E0CCA6A}.Release|Win32.ActiveCfg = Release|Win32
+		{9466EBE7-7EAC-4F09-946A-C7197E0CCA6A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
