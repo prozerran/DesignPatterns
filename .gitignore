@@ -19,8 +19,6 @@ x64-Debug/
 x64-Release/
 Debug/
 Release/
-TestPattern/
-TestPattern_gTest/
 
 # Ignore autoconf / automake files
 Makefile.in
