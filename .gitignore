@@ -1,32 +1,42 @@
-# Prerequisites
-*.d
+# Ignore CI build directory
+build/
+xcuserdata
+cmake-build-debug/
+.idea/
+# python
+*.pyc
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Visual Studio files
+*.sdf
+*.opensdf
+*.VC.opendb
+*.suo
+*.user
+_ReSharper.Caches/
+Win32-Debug/
+Win32-Release/
+x64-Debug/
+x64-Release/
+Debug/
+Release/
+TestPattern/
+TestPattern_gTest/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Ignore autoconf / automake files
+Makefile.in
+aclocal.m4
+configure
+build-aux/
+autom4te.cache/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Ignore generated directories.
+.vs/
 
-# Fortran module files
-*.mod
-*.smod
+# macOS files
+.DS_Store
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Ignore cmake generated directories and files.
+CMakeFiles
+CTestTestfile.cmake
+Makefile
+cmake_install.cmake
