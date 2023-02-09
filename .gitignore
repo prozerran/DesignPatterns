@@ -19,6 +19,9 @@ x64-Debug/
 x64-Release/
 Debug/
 Release/
+packages/
+*/obj/
+*/bin/
 
 # Ignore autoconf / automake files
 Makefile.in
